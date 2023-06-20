@@ -83,16 +83,15 @@ function setAuthHeader()
           type: 'POST',
           beforeSend: function(request) {
             request.setRequestHeader('Authorization', 'Bearer '+ currentUserToken.idToken);
-            request.setRequestHeader('Content-type', 'multipart/form-data');
+            //request.setRequestHeader('Content-type', 'multipart/form-data; boundary=---------------------------' + new Date().getTime());
           },
           data: formData,
-          contentType: true,
+          contentType:false,
           processData: false,
           success: function(response) {
          
             window.location.href='/hotel/admin.html';
           }
-        });
-    
+        });    
       });
 }        
