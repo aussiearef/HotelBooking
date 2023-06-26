@@ -11,7 +11,7 @@ This microservice code is a simple HTML and Javascript website to demonstrates t
 
 The course explains how a microservices-based system is designed and developed using Python and based on Amazon Web Services.
 
-View the full course here:
+View the entire course here:
 
 ["Build Microservices with Python and Amazon Web Services"](https://www.udemy.com/course/draft/5295272/?referralCode=4727A2957A33ED2E4226)
 
@@ -19,4 +19,4 @@ View the full course here:
 
 1- Clone the repository in a folder.
 2- Open the folder in Visual Studio Code
-3- Find "<api url here>", and where you find it, replace it with the URL of the APIs that you will create as you go throgh the course.
+3- Find "<api url here>", and where you find it, replace it with the URL of the APIs you will create as you go through the course.
