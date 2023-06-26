@@ -2,7 +2,7 @@
 # The Hotel Booking System
 
 
-![Microservices with Python and AWS ](https://img-b.udemycdn.com/course/750x422/2080118_8bbf_7.jpg "Microservices with .NET and AWS")
+![Microservices with Python and AWS ](https://img-b.udemycdn.com/course/750x422/5295272_c99f_4.jpg)
 
 
 
