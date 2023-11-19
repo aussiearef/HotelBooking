@@ -1,22 +1,27 @@
-# Build Microservices with AWS and Python 
-# The Hotel Booking System
+# Build Microservices with AWS 
+# The Website
 
 
-![Microservices with Python and AWS ](https://img-b.udemycdn.com/course/750x422/5295272_c99f_4.jpg)
+![Microservices with .NET and AWS ](https://img-b.udemycdn.com/course/750x422/2080118_8bbf_8.jpg "Microservices with .NET and AWS")
 
 
+This HTML & Javascript website is part of two online courses called ["Build Microservices with .NET and Amazon Web Services"](https://www.udemy.com/course/build-microservices-with-aspnet-core-amazon-web-services/?referralCode=B288BF33506B34292176) and ["Master Event-Driven Microservices with Python and AWS"](https://www.udemy.com/course/build-microservices-with-python-aws/?referralCode=4727A2957A33ED2E4226)
 
-This microservice code is a simple HTML and Javascript website to demonstrates the functionalities that are created as part of an online course called ["Build Microservices with Python and Amazon Web Services"](https://www.udemy.com/course/draft/5295272/?referralCode=4727A2957A33ED2E4226)
+The purpose of this website is to act as the front-end for a microservices-based Hotel Booking system developed during the courses mentioned above. This straightforward website is designed with HTML, CSS and JavaScript. It takes the complexity of using a more sophisticated Javascript framework such as React or Angular away and lets students focus on learning Microservices and their development in AWS.
 
+The course explains how a microservices-based system is developed and what relevant design patterns are applied in scenarios.
 
-The course explains how a microservices-based system is designed and developed using Python and based on Amazon Web Services.
+View the complete courses here:
 
-View the entire course here:
-
-["Build Microservices with Python and Amazon Web Services"](https://www.udemy.com/course/draft/5295272/?referralCode=4727A2957A33ED2E4226)
+["Build Microservices with .NET and Amazon Web Services"](https://www.udemy.com/course/build-microservices-with-aspnet-core-amazon-web-services/?referralCode=B288BF33506B34292176)
+["Master Event-Driven Microservices with Python and AWS"](https://www.udemy.com/course/build-microservices-with-python-aws/?referralCode=4727A2957A33ED2E4226)
 
 ## Usage
 
-1- Clone the repository in a folder.
-2- Open the folder in Visual Studio Code
-3- Find "<api url here>", and where you find it, replace it with the URL of the APIs you will create as you go through the course.
+1- Clone the repository on a local folder.
+2- Open the folder in Visual Studio Code.
+3- Search for "<api url here>" and replace it with the actual URL of the APIs you build.
+
+You will need a web server like Internet Information Services (IIS) in Windows or Apache Tomcat on Mac/Linux. Alternatively, you can use ["Web Server Extension on Google Chrome"](https://bit.ly/3QJF53O)
+
+
