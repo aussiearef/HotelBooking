@@ -31,8 +31,8 @@
         </table>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="scripts/amazon-cognito-auth.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/cognito.js"></script>
@@ -45,8 +45,11 @@
         });
 
         function populateHotelsList(idToken) {
-            var s3BaseUrl="https://hotel-admin-bucket.s3.ap-southeast-2.amazonaws.com";
-            
+            var s3BaseUrl="";
+            if (s3BaseUrl==="")
+            {
+                alert('You must set a value for s3BaseUrl in populateHotelsList function (in admin.html). The URL must follow this pattern:https://<your bucket name>.s3.ap-southeast-2.amazonaws.com')
+            }
             // replace the 'url' attribute below to your API's URL
             $.ajax({
                 url: "<api url here>",
