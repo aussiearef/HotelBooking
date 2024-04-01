@@ -1,8 +1,8 @@
 const config={
     cognito:{
-        identityPoolId:"ap-southeast-2_2Dm0JvSbL",
-        cognitoDomain:"hotel.auth.ap-southeast-2.amazoncognito.com",
-        appId:"104q5t9t9moj02ga6ufi39j6ct"
+        identityPoolId:"", // put your AWS Cognito Identity Pool ID here
+        cognitoDomain:"", // put your AWS Cognito domain here i.e., hote.mydomain.com
+        appId:"" // Create an Applicaiton in AWS Cognito (under User Pool) and put its ID here.
     }
 }
 
@@ -14,7 +14,7 @@ var cognitoApp={
         var authData = {
             ClientId : config.cognito.appId,
             AppWebDomain : config.cognito.cognitoDomain,
-            TokenScopesArray : ['email', 'openid','profile'],
+            TokenScopesArray : ['email', 'openid'],
             RedirectUriSignIn : 'http://localhost:8080/hotel/',
             RedirectUriSignOut : 'http://localhost:8080/hotel/',
             UserPoolId : config.cognito.identityPoolId, 
