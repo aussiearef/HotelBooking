@@ -1,8 +1,8 @@
 const config={
     cognito:{
         identityPoolId:"", // put your AWS Cognito Identity Pool ID here
-        cognitoDomain:"", // put your AWS Cognito domain here i.e., hote.mydomain.com
-        appId:"" // Create an Applicaiton in AWS Cognito (under User Pool) and put its ID here.
+        cognitoDomain:"", // put your AWS Cognito domain here. The value is in AWS Console, under AWS Cognito -> Domains.
+        appId:"" // Create a Client App (Application) in AWS Cognito (under User Pool) and put its ID here.
     }
 }
 
