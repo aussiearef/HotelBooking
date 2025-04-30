@@ -29,6 +29,12 @@ A straightforward way to set up a web server is with Node.js's built-in web serv
  Alternatively, you can use ["Web Server Extension on Google Chrome"](https://bit.ly/3QJF53O)
 
 
+## More Free Courses on YouTube
+
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)](http://www.youtube.com/@FreeTechnologyLectures)
+
+Subscribe to the Free Technology and Technology Management Courses channel for free lectures about Coding, DevOps, and Technology Management. [Here is the link to the YouTube channel](http://www.youtube.com/@FreeTechnologyLectures).
+
 
 
 
